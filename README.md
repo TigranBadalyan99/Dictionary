@@ -16,3 +16,12 @@ using **separate chaining** with a custom `SingleLinkedList` for collision handl
   - `Print()` for debugging
 
 ## D
+
+# MyHashSet
+
+A custom hash set implementation in C#, using **separate chaining** with a `SingleLinkedList` for collision handling.
+
+## Features
+- Add, remove, and check for the presence of integer keys
+- Automatic resizing when load factor is exceeded
+- Collision resolution via separate chaining
